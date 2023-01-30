@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+   .main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+   url(img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    image-orientation: flip;
+   }
+   .banner {
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+    padding-left: 120px;
+    padding-right: 280px;
+    font-family: Arial;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 25px;
+   }
+   img {
+    padding-left: 250px;
+    float: left;
+    padding-top: 20px;
+   }
+   .main h2 {
+    color: white;
+    font-size: xx-large;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 5%;
+   }
+   .copyright {
+    color: rgb(255, 255, 255);
+    padding-top: 320px;
+    padding-left: 440px;
+   }
+   a {
+    text-decoration: none;
+   }
+   

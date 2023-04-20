@@ -1,3 +1,9 @@
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +11,7 @@
    .main {
     width: 100%;
     background: linear-gradient( to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-   url(img.jpg);
+   url(Pg.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -125,4 +131,56 @@
    a {
     text-decoration: none;
    }
+   .footer{
+    background: rgb(81, 98, 122);
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1rem 0;
+}
+.footer .share a{
+    height:3rem;
+    width:3rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    color: white;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+  background-color:var(--main-color); 
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    gap:1rem;
+}
+.footer .links a{
+    padding: .7rem 2rem;
+    color:#fff;
+    border: var(--border);
+    font-size: 1.2rem;
+}
+.footer .links a:hover{
+    background:var(--main-color);
+
+}
+
+.footer .credit{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+.footer .credit span{
+    color: var(--main-color);
+}
+
+
    
